@@ -244,3 +244,10 @@ git branch -M main
 git remote add origin < Ссылка на удаленный репозиторий >
 git push 
 ```
+
+* Отправить существующий репозиторий из командной строки
+```
+git remote add origin < Ссылка на наш удаленный репозиторий>
+ git branch -M main 
+git push -u origin main
+```
